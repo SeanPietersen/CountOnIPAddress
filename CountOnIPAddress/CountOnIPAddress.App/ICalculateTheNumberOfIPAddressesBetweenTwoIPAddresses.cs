@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CountOnIPAddress.App
 {
-    interface ICalculateTheNumberOfIPAddressesBetweenTwoIPAddresses
+    public interface ICalculateTheNumberOfIPAddressesBetweenTwoIPAddresses
     {
+        ulong IpsBetween(string start, string end);
     }
 }
